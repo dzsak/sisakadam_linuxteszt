@@ -1,0 +1,13 @@
+app: sisakadam_linuxteszt
+env: testing
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.47.0
+values:
+  gitRepository: dzsak/sisakadam_linuxteszt
+  gitSha: '{{ .SHA }}'
+strategicMergePatches: ""
+json6902Patches: []
+manifests: ""
